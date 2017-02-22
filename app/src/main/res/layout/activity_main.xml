@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:auto3d="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.garyhu.textswicherdemo.widget.AutoTextView
+        android:id="@+id/switcher02"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        auto3d:auto_size="30sp" />
+
+    <Button
+        android:id="@+id/swicher"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="原生的TextSwicher"/>
+
+    <Button
+        android:id="@+id/net"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="网络框架TextSwicher"/>
+</LinearLayout>
